@@ -1,13 +1,68 @@
 <!doctype html>
-<html>
+
+<html lang='en'>
   <head>
-    <title>Downcity.js, the Providence Javascript Hackathon.</title>
+    <meta chartset='utf-8'>
+    <title>Downcity.js, the Providence JavaScript Hackathon.</title>
+    <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+    <style>
+      body { 
+        background: #001531 url(images/noise.png); 
+        color: #76beff; 
+        font-family: Helvetica, Arial, sans-serif; 
+        font-family: 'Jockey One', sans-serif;
+        font-size: 18px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+      }
+      #main { 
+        width: 700px; 
+        margin: 30px auto; 
+        text-align: center;
+      }
+
+      a {
+        color: #b8deff;
+        text-decoration: none;
+        -webkit-transition: all 0.2s ease-in;
+           -moz-transition: all 0.2s ease-in;
+                transition: all 0.2s ease-in;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+
+      #logo {
+        text-indent: -10000px;
+        width: 488px;
+        height: 440px;
+        background: url(images/logo.png);
+        margin: auto;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 32px;
+      }
+
+      h2, h3 {
+        margin: 0px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      h3 {
+        font-size: 23px;
+      }
+
+    </style>
   </head>
 
   <body>
-    <h1>Downcity.js, the Providence Javascript Hackathon.</h1>
+    <div id='main'>
+      <h1 id='logo'>Downcity.js</h1>
+      <h2>The Providence JavaScript Hackathon</h2>
 
-    <h2>Want to sponsor or help?  Get at us: <a
-        href="http://twitter.com/downcityjs">@downcityjs</a></h2>
+      <h3>Want to sponsor or help?  Get at us: <a href="http://twitter.com/downcityjs">@downcityjs</a></h3>
+    </div>
   </body>
 </html>
