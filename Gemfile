@@ -1,4 +1,4 @@
 source :rubygems
 
-gem 'rack'
+gem 'puma'
 gem 'thin'
