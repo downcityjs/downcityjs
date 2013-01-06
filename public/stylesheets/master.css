@@ -1,0 +1,211 @@
+body {
+  color: #222;
+  background: #eee url(../images/noise.png);
+  font-family: "Rambla", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px 1px #fff;
+}
+
+a {
+  color: #0853a4;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+  -webkit-transition: all 0.2s ease-in;
+     -moz-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+h1 {
+  color: #fff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0853a4;
+  margin-bottom: 20px;
+}
+
+h2 i {
+  color: #aaa;
+  margin-right: 5px;
+}
+
+h3 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.prizes > li {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#prizes small {
+  font-size: 16px;
+  color: #888;
+  vertical-align: middle;
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+tr td:first-child {
+  color: #888;
+  width: 140px;
+}
+tr td:last-child {
+  padding-left: 10px;
+}
+tr:last-child td {
+  border: 0;
+}
+
+.cf:after { clear:both; content:"."; display: block; height:0; visibility: hidden; line-height:0; font-size:0; }
+
+#header {
+  width: 1000px;
+  margin: auto;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.6);
+  margin-bottom: 140px;
+  padding-top: 20px;
+  height: 88px;
+}
+
+#header .inner {
+  background: #0853a4 url(../images/noise.png);
+  border-radius: 100px;
+  box-shadow: inset 0 1px 100px rgba(0, 0, 0, 0.5),
+              0 0 0 1px #fff,
+              0 0 0 4px #eee;
+  border: 2px solid #001531;
+  width: 300px;
+  margin: auto;
+}
+
+#logo {
+  text-indent: -10000px;
+  width: 244px;
+  height: 170px;
+  background: url(../images/logo.png) top center no-repeat;
+  background-size: 244px 220px;
+  margin: auto;
+}
+
+#content {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+#left {
+  width: 480px;
+  float: left;
+}
+
+#right {
+  width: 480px;
+  float: right;
+}
+
+#about, #register {
+  height: 330px;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.6);
+  margin-bottom: 40px;
+}
+
+#register a {
+  border: 0;
+}
+
+#sponsors {
+  text-align: center;
+  border-top: 2px solid #ddd;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+  width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+#sponsors .inner {
+  margin: auto;
+  width: 800px;
+  padding-bottom: 200px;
+}
+
+#sponsors h3 {
+  background: #eee url(../images/noise.png);
+  margin: auto;
+  margin-top: -43px;
+  margin-bottom: 30px;
+  width: 150px;
+  text-align: center;
+  color: #888;
+}
+
+.sponsor {
+  margin: 0 3px;
+  display: block;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -10000px;
+  width: 260px;
+  height: 102px;
+  border: 0;
+  opacity: 0.5;
+}
+
+.sponsor.swipely {
+  background-image: url(../images/swipely.png);
+}
+
+.sponsor.betaspring {
+  background-image: url(../images/betaspring.png);
+}
+
+.sponsor.founders_league {
+  background-image: url(../images/founders_league.png);
+}
+
+.sponsor.github {
+  background-image: url(../images/github.png);
+}
+
+.sponsor.basho {
+  background-image: url(../images/basho.png);
+}
+
+.sponsor.sendgrid {
+  background-image: url(../images/sendgrid.png);
+}

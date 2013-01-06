@@ -3,251 +3,139 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>Downcity.js, the Providence JavaScript Hackathon.</title>
-    <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-        background: #001531 url(images/noise.png);
-        color: #76beff;
-        font-family: Helvetica, Arial, sans-serif;
-        font-family: 'Jockey One', sans-serif;
-        font-size: 18px;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
-      }
-
-      a {
-        color: #b8deff;
-        text-decoration: none;
-        border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-        -webkit-transition: all 0.2s ease-in;
-           -moz-transition: all 0.2s ease-in;
-                transition: all 0.2s ease-in;
-      }
-
-      a:hover {
-        color: #fff;
-      }
-
-      h2, h3 {
-        margin: 0px;
-      }
-
-      h2 {
-        font-size: 30px;
-        color: rgb(68, 166, 255);
-      }
-
-      h3 {
-        font-size: 23px;
-      }
-
-      table {
-        margin: 20px;
-      }
-
-      td {
-        border: 1px solid;
-      }
-
-      td {
-        padding: 10px;
-        margin: 0px;
-      }
-
-      .cf:after { clear:both; content:"."; display: block; height:0; visibility: hidden; line-height:0; font-size:0; }
-
-      #main {
-        width: 900px;
-        margin: 30px auto;
-      }
-
-      #logo {
-        text-indent: -10000px;
-        width: 900px;
-        height: 440px;
-        background: url(images/logo.png) center center no-repeat;
-        margin: auto;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-        margin-bottom: 32px;
-      }
-
-      #content {
-        width: 580px;
-        float: left;
-      }
-
-      #sponsors {
-        width: 180px;
-        float: right;
-        padding: 10px 20px;
-        background: rgba(0, 0, 0, 0.1);
-        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 0 0 rgba(255, 255, 255, 0.1);
-        border-radius: 4px;
-        border: 1px solid rgba(0, 0, 0, 0.3);
-      }
-
-      #sponsors h3 {
-        margin-bottom: 5px;
-      }
-
-      #sponsors p {
-        margin-bottom: 0;
-        color: #0a5fb0;
-      }
-
-      .sponsor {
-        display: block;
-        background-repeat: no-repeat;
-        text-indent: -10000px;
-        width: 180px;
-        border: 0;
-        opacity: 0.8;
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out;
-        margin-bottom: 10px;
-      }
-
-      .sponsor:hover {
-        opacity: 1;
-      }
-
-      .sponsor.swipely {
-        background-image: url(images/swipely.png);
-        height: 43px;
-      }
-
-      .sponsor.basho {
-        background-image: url(images/basho.png);
-        height: 63px;
-      }
-
-      .sponsor.betaspring {
-        background-image: url(images/betaspring.png);
-        height: 117px;
-      }
-
-      .sponsor.founders_league {
-        background-image: url(images/founders_league.png);
-        height: 50px;
-      }
-
-      .sponsor.github {
-        background-image: url(images/github.png);
-        height: 79px;
-        }
-
-      .sponsor.sendgrid {
-        background-image: url(images/sendgrid.png);
-        height: 52px;
-      }
-    </style>
+    <title>DowncityJS, the Providence JavaScript Hackathon.</title>
+    <link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/master.css' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <div id='main'>
-      <header>
-        <h1 id='logo'>Downcity.js</h1>
+      <header id='header'>
+        <div class='inner'>
+          <h1 id='logo'>DowncityJS</h1>
+        </div>
       </header>
 
-      <article class='cf'>
-        <section id='content'>
-          <h2>The What</h2>
+      <article class='cf' id='content'>
+        <div class='cf'>
+          <section id='left'>
+            <div id='about'>
+              <h2><i class='icon-question-sign'></i> About</h2>
 
-          <p>DowncityJS is a 24 hour JavaScript Hackathon which will
-          take place in Providence, RI.  We'll provide the space,
-          connectivity, food, and drinks.  You provide the code.</p>
+              <p> DowncityJS is a 24 hour JavaScript Hackathon which will take
+              place in Providence, RI. We'll provide the space, connectivity,
+              food, and drinks. You provide the code.  </p>
 
-          <h2>The Who</h2>
+              <p> We're looking for motivated JavaScript developers and
+              web designers to come together and build the best web
+              application or library they can in a 24-hour period.  </p>
 
-          <p>We're looking for motivated JavaScript developers and web
-          designers to come together and build the best web application
-          or library they can in a 24-hour period.</p>
+              <p> DowncityJS will take place on February 2nd, 2013 at
+              Betaspring, in Providence, Rhode Island.  </p>
 
-          <h2>The When</h2>
+              <a href="https://twitter.com/share?url=http://downcityjs.com&via=downcityjs" class="twitter-share-button" data-lang="en">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
 
-          <p>DowncityJS will take place on February 2nd, 2013 at
-          Betaspring, in Providence, Rhode Island.</p>
+            <div id='prizes'>
+              <h2><i class='icon-gift'></i> Prizes <small>Announced weekly</small></h2>
 
-          <h2>The Schedule</h2>
+              <ul class='prizes'>
+                <li>
+                  <h3>Best Team</h3>
+                  <ul>
+                    <li>1 <a href='http://gosphero.com'>Sphero</a> for each team member. From <a href='http://sendgrid.com'>SendGrid</a>.</li>
+                    <li>1 Year of prepaid GitHub Micro for each team member. From <a href='http://github.com'>GitHub</a>.</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>Best Solo</h3>
+                  <ul>
+                    <li>1 Year of prepaid GitHub Micro. From <a href='http://github.com'>GitHub</a>.</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>Best Design</h3>
+                  <ul>
+                    <li>1 Year of prepaid GitHub Micro for each team member. From <a href='http://github.com'>GitHub</a>.</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>Best use of the SendGrid API</h3>
+                  <ul>
+                    <li>$50 Amazon gift card to each team member. From <a href='http://sendgrid.com'>SendGrid</a>.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id='right'>
+            <div id='register'>
+              <h2><i class='icon-pencil'></i> Register Now</h2>
+              <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=4749553041&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online Ticketing</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://downcityjs2013.eventbrite.com?ref=etckt">DowncityJS</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+            </div>
 
-          <table>
-            <thead>
-              <tr>
-                <th>Start</th>
-                <th>End</th>
-                <th>Slot</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>12:00 PM</td>
-                <td>12:30 PM</td>
-                <td>Registration and Brunch</td>
-              </tr>
-              <tr>
-                <td>12:30 PM</td>
-                <td>1:00 PM</td>
-                <td>Pitches and Team Organization</td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>7:00 PM</td>
-                <td>Hack!</td>
-              </tr>
-              <tr>
-                <td>7:00 PM</td>
-                <td>8:00 PM</td>
-                <td>Dinner</td>
-              </tr>
-              <tr>
-                <td>8:00 PM</td>
-                <td>8:00 AM</td>
-                <td>Hack!</td>
-              </tr>
-              <tr>
-                <td>8:00 AM</td>
-                <td>9:00 AM</td>
-                <td>Breakfast</td>
-              </tr>
-              <tr>
-                <td>9:00 AM</td>
-                <td>12:00 PM</td>
-                <td>Hack!</td>
-              </tr>
-              <tr>
-                <td>12:00 PM</td>
-                <td>1:00 PM</td>
-                <td>Pitches</td>
-              </tr>
-              <tr>
-                <td>1:00 PM</td>
-                <td>2:00 PM</td>
-                <td>Judging and Awarding</td>
-              </tr>
-            </tbody>
-          </table>
+            <h2><i class='icon-calendar'></i> Schedule</h2>
 
-          <h2>The Prizes</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>12:00 - 12:30 PM</td>
+                  <td>Registration and Brunch</td>
+                </tr>
+                <tr>
+                  <td>12:30 PM - 1:00 PM</td>
+                  <td>Pitches and Team Organization</td>
+                </tr>
+                <tr>
+                  <td>1:00 - 7:00 PM</td>
+                  <td>Hack!</td>
+                </tr>
+                <tr>
+                  <td>7:00 - 8:00 PM</td>
+                  <td>Dinner</td>
+                </tr>
+                <tr>
+                  <td>8:00 PM - 8:00 AM</td>
+                  <td>Hack!</td>
+                </tr>
+                <tr>
+                  <td>8:00 - 9:00 AM</td>
+                  <td>Breakfast</td>
+                </tr>
+                <tr>
+                  <td>9:00 AM - 12:00 PM</td>
+                  <td>Hack!</td>
+                </tr>
+                <tr>
+                  <td>12:00 - 1:00 PM</td>
+                  <td>Pitches</td>
+                </tr>
+                <tr>
+                  <td>1:00 - 2:00 PM</td>
+                  <td>Judging and Awarding</td>
+                </tr>
+              </tbody>
+            </table>
 
-          <p>More information coming soon!</p>
+          </section>
+        </div>
 
-          <h3><a href="http://downcityjs2013.eventbrite.com/">Register now!</a></h3>
-        </section>
+      </article>
 
-        <aside id='sponsors'>
-          <h3>Sponsors</h3>
-
+      <div id='sponsors'>
+        <h3>Sponsored by</h3>
+        <div class='inner'>
           <a title='Basho' class='sponsor basho' href='http://basho.com'>Basho</a>
           <a title='Swipely' class='sponsor swipely' href='http://swipely.com'>Swipely</a>
           <a title='Betaspring' class='sponsor betaspring' href='http://betaspring.com'>Betastring</a>
           <a title='Founders League' class='sponsor founders_league' href='http://betaspring.com'>Founders League</a>
           <a title='Github' class='sponsor github' href='http://github.com'>Github</a>
           <a title='SendGrid' class='sponsor sendgrid' href='http://sendgrid.com'>SendGrid</a>
-
-          <p>Want to sponsor or help? Get at us: &nbsp;<a href="http://twitter.com/downcityjs">@downcityjs</a></p>
-        </aside>
-      </article>
+        </div>
+      </div>
     </div>
   </body>
 </html>
