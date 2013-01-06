@@ -185,6 +185,10 @@ tr:last-child td {
   border: 0;
   opacity: 0.5;
 }
+.sponsor:hover {
+  border: 0;
+  opacity: 1;
+}
 
 .sponsor.swipely {
   background-image: url(../images/swipely.png);
