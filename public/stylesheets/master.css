@@ -214,6 +214,10 @@ tr:last-child td {
   background-image: url(../images/sendgrid.png);
 }
 
+.sponsor.embedly {
+  background-image: url(../images/embedly.png);
+}
+
 .venue {
   height: 200px;
   border-bottom: 2px solid #ddd;
