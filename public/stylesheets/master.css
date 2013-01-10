@@ -63,6 +63,24 @@ ul.prizes > li {
   margin-bottom: 20px;
 }
 
+.cf:after {
+  clear:both; 
+  content:"."; 
+  display: block; 
+  height:0; 
+  visibility: hidden; 
+  line-height:0; 
+  font-size:0;
+}
+
+.twitter, .facebook {
+  float: left;
+}
+
+.twitter {
+  width: 95px;
+}
+
 #prizes small {
   font-size: 16px;
   color: #888;
