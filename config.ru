@@ -1,7 +1,7 @@
 Rack::Mime::MIME_TYPES['.woff'] = 'application/x-font-woff'
 
 use Rack::Static,
-  :urls => ["/stylesheets", "/images", "/font"],
+  :urls => ["/stylesheets", "/images", "/font", "/favicon.ico"],
   :root => "public"
 
 run lambda { |env|
