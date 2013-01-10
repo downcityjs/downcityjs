@@ -218,6 +218,10 @@ tr:last-child td {
   background-image: url(../images/embedly.png);
 }
 
+.sponsor.nodejitsu {
+  background-image: url(../images/nodejitsu.png);
+}
+
 .venue {
   height: 200px;
   border-bottom: 2px solid #ddd;
