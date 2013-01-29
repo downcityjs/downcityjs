@@ -240,6 +240,10 @@ tr:last-child td {
   background-image: url(../images/nodejitsu.png);
 }
 
+.sponsor.tweetwall {
+  background-image: url(../images/tweetwall.png);
+}
+
 .venue {
   height: 200px;
   border-bottom: 2px solid #ddd;
