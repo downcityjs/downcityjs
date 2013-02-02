@@ -31,7 +31,7 @@
 
       <article class='cf' id='content'>
         <div class='cf'>
-          <section id='left'>
+          <section class='left'>
             <div id='about'>
               <h2><i class='icon-question-sign'></i> About</h2>
               <p> DowncityJS is a 24-hour JavaScript Hackathon taking place in
@@ -114,7 +114,7 @@
             </div>
 
           </section>
-          <section id='right'>
+          <section class='right'>
             <div id='register'>
               <h2><i class='icon-pencil'></i> Register Now</h2>
               <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=4749553041&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online Ticketing</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://downcityjs2013.eventbrite.com?ref=etckt">DowncityJS</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
@@ -249,15 +249,65 @@
           </div>
         </div>
 
-        <div id='docs'>
-          <h2><i class='icon-file-alt'></i> Sponsor API Documentation</h2>
-          <div>
-            <a href='https://docs.google.com/document/d/1N7wPG57ME8VbTNHOsjWDOJvjSdvElZLnsmjOKxjA77M/edit?pli=1'>Embed.ly Documentation</div>
+        <div class='cf'>
+          <div id='rules' class='left'>
+            <h2><i class='icon-list'></i> Rules</h2>
+            <ol>
+              <li>Be polite. Have fun. Helping other teams is encouraged.</li>
+              <li>The competition begins at 1:30PM EST on Saturday and ends at
+              12:30PM Sunday. No work can be done before or after this
+              time.</li>
+              <li>Entries may be open or closed source, and distributed under
+              the license of your choosing. You retain ownership of your code.
+              The judges will however have access to the source for the
+              purposes of judging.</li>
+              <li>Entries can be web applications or libraries. Library authors
+              are recommended to have a way to demonstrate functionality, such
+              as documentation.</li>
+              <li>The majority of non-HTML and CSS code must be written in or
+              compiled to Javascript. This means code may be written in
+              languages like CoffeeScript and ClojureScript.</li>
+              <li>Teams must be one to five people.</li>
+              <li>Public or private repository hosting on Github will be
+              provided by the organizers. Code must be pushed to your given
+              Github repository.</li>
+              <li>Harassment of any kind will not be tolerated and will result
+              in immediate disqualification and removal from the premises.</li>
+              <li>Applications may be deployed on the provider of your
+              choosing. We recommend using Heroku. The organizers are happy to
+              help in this regard.</li>
+              <li>All entries must include a README file which documents
+              dependencies, such as libraries and hosted infrastructure.</li>
+              <li>All dependencies must be available to all participants.
+              Non-free dependencies are allowed, but participants are
+              encouraged to be frugal.</li>
+              <li>Use of 3rd-party APIs are encouraged. Prizes will be given on
+              the best use of the Embed.ly and SendGrid APIs. See the prizes
+              page for more information.</li>
+              <li>Organizers have final say on rulings. We will be fair.</li>
+            </ol>
+          </div>
+
+          <div id='judging' class='right'>
+            <h2><i class='icon-legal'></i> Judging Criteria</h2>
+            <p>Judging will be subjective, but the judges will consider:</p>
+            <ul>
+              <li>Design / Aesthetics</li>
+              <li>Code Quality</li>
+              <li>Completeness</li>
+              <li>Overall Project</li>
+            </ul>
+
+            <div id='docs'>
+              <h2><i class='icon-file-alt'></i> Sponsor API Documentation</h2>
+              <div>
+                <a href='https://docs.google.com/document/d/1N7wPG57ME8VbTNHOsjWDOJvjSdvElZLnsmjOKxjA77M/edit?pli=1'>Embed.ly Documentation</div>
+              </div>
+            </div>
           </div>
         </div>
 
       </article>
-
 
       <div id='sponsors'>
         <h3>Sponsored by</h3>
@@ -272,6 +322,7 @@
           <a title='nodejitsu' class='sponsor nodejitsu' href='http://nodejitsu.com'>nodejitsu</a>
           <a title='tweetwall' class='sponsor tweetwall' href='http://tweetwall.com'>tweetwall</a>
           <a title='AppNeta' class='sponsor appneta' href='http://appneta.com'>AppNeta</a>
+          <a title='PVD Tech Events' class='sponsor pvdtechevents' href='http://pvdtechevents.com'>PVD Tech Events</a>
         </div>
       </div>
     </div>
